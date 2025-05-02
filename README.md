@@ -32,7 +32,8 @@ The landing page features:
 - Semantic HTML  
 - CSS styling and layout  
 - Flexbox for responsive structure  
-- Git version control (commit early, commit often!)
+- Git version control (commit early, commit often!)  
+- Using `@media` queries for basic responsiveness  
 
 ---
 
@@ -55,9 +56,10 @@ I’m following a **section-by-section** development style — from the **top** 
    - Build HTML structure first (logo, navigation, heading, subtext, image, CTA button)  
    - Add basic CSS styling  
    - Refine layout with Flexbox  
-   - Polish styling (spacing, font size, colors)
+   - Polish styling (spacing, font size, colors)  
+   - **→ Made the image responsive using `@media`** 👇 _(see details below)_
 
-**other section will be explained once i move or completed that seciton**
+**Other sections will be explained once I move or complete that section**
 
 2. **Information Section**  
 3. **Testimonial/Quote Section**  
@@ -66,18 +68,39 @@ I’m following a **section-by-section** development style — from the **top** 
 
 ---
 
+## 🤔 **What I Struggled With (and Fixed!)**
+
+### The Problem: Hero Image Wouldn’t Shrink
+
+Even though the project is meant for desktop view, it was really bothering me that the image in the hero section didn’t resize when I shrank the browser window. It was overflowing and felt broken.
+
+### The Fix: Media Queries
+
+I found [this helpful Stack Overflow answer](https://stackoverflow.com/questions/66684482/using-media-for-entire-css) that explained how to use `@media` queries in regular CSS (not just Sass).  
+With that, I:
+
+- Set `width: 100%` and `max-width: 700px` for the image
+- Added a `@media (max-width: 768px)` query to:
+  - Switch layout direction to column
+  - Center-align text and image
+  - Remove negative margins so the image centers properly
+
+Now the image scales naturally while still looking great on desktop.  
+It wasn’t required, but I’m proud of solving it anyway.
+
+---
+
 ## 📤 **To-Do**
 - [x] Setup project repo and file structure  
 - [x] Add header and hero section HTML  
-- [ ] Style hero section  
+- [x] Style hero section  
+- [x] Make image responsive with media queries  
 - [ ] Build info section  
 - [ ] Add testimonial quote  
 - [ ] Build footer  
 - [ ] Final polish  
 - [ ] Push to GitHub  
 - [ ] Share with the community!
-
----
 
 ---
 
