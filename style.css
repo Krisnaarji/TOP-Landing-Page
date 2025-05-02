@@ -25,34 +25,40 @@ header {
     overflow: hidden;
     box-shadow: 1px 1px 80px 20px rgb(0, 0, 0);
     background-color: #ffffff;
-    opacity:0.8;
+    opacity:0.7;
+    z-index: 3;  
+    
 }
 
 #header {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .logo {
     font-weight: bold;
     font-size: 24px;
-    font-family: 'FerroRosso', sans-serif;  
+    font-family: 'FerroRosso', sans-serif;
 }
 
 .logo img {
     width: 50px;
+
 }
   
 .nav-links a {
     color: rgb(0, 0, 0);
     margin-left: 20px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
     padding-left: 50px;
+    font-weight: bold;
+    
 }
 
 .container {
@@ -63,8 +69,8 @@ header {
 #hero {
     background: linear-gradient(90deg,rgba(128, 0, 0, 1) 0%, rgba(155, 1, 1, 1) 26%, rgba(173, 0, 0, 1) 50%, rgba(212, 0, 0, 1) 75%, rgba(255, 0, 0, 1) 100%);
     display: flex;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
   
 .hero-content {
@@ -87,12 +93,12 @@ header {
     font-size: 80px;    
     font-family: 'Anton', sans-serif;
     padding-bottom: 20px;
-    
+    text-shadow: 10px 10px 4px #000000;
 }
 
 .hero-text p {
     font-size: 20px;
-    padding: 10px 0px 0px 0px;
+    padding: 14px 0px 0px 0px;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -108,16 +114,37 @@ header {
 
 .hero-image {
     position: relative;
-    z-index: 1;
+    justify-content: center;
     margin-left: -500px; 
-    padding-top: 60px;
+    padding-top: 70px;
+    padding-top: 20px;
+    max-width: 100%;
+    display: flex;
+    z-index: 1;
     
 }
 
 .hero-image img {
-    width: 1000px; 
+    display: block;
     height: auto;
- 
+    width: 100%;
+    max-width: 700px;
+}
+
+@media (max-width: 768px) {
+    #hero {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-text {
+        padding: 50px;
+    }
+
+    .hero-image {
+        margin-left: 0;
+    }
 }
 
   
