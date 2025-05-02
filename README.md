@@ -15,14 +15,6 @@ The goal is to recreate a provided design layout using basic **HTML and CSS**, w
 
 ---
 
-## 📸 Reference Design
-
-This is a section-by-section recreation of the reference image provided by The Odin Project:
-
-![Landing Page Preview](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png)
-
----
-
 ## 📄 **Project Overview**
 
 The landing page features:
@@ -65,7 +57,7 @@ I’m following a **section-by-section** development style — from the **top** 
    - Refine layout with Flexbox  
    - Polish styling (spacing, font size, colors)
 
-**other section will be explaned once i move or completed that seciton**
+**other section will be explained once i move or completed that seciton**
 
 2. **Information Section**  
 3. **Testimonial/Quote Section**  
@@ -84,6 +76,15 @@ I’m following a **section-by-section** development style — from the **top** 
 - [ ] Final polish  
 - [ ] Push to GitHub  
 - [ ] Share with the community!
+
 ---
+
+---
+
+## 📸 Reference Design
+
+This is the landing page reference image provided by The Odin Project:
+
+![Landing Page Preview](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png)
 
 © The Odin Project 2021 | Made with ❤️ by Krisnaarji
