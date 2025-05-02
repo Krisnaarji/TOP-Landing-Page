@@ -15,6 +15,14 @@ The goal is to recreate a provided design layout using basic **HTML and CSS**, w
 
 ---
 
+## 📸 Reference Design
+
+This is a section-by-section recreation of the reference image provided by The Odin Project:
+
+![Landing Page Preview](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png)
+
+---
+
 ## 📄 **Project Overview**
 
 The landing page features:
@@ -45,12 +53,37 @@ The landing page features:
 
 ---
 
+## 🧱 **How I'm Building This Project**
+
+I’m following a **section-by-section** development style — from the **top** (header/hero) to the **bottom** (footer), and I aim to complete each section before moving on to the next.
+
+### Section Workflow:
+
+1. **Top Section (Hero area)**  
+   - Build HTML structure first (logo, navigation, heading, subtext, image, CTA button)  
+   - Add basic CSS styling  
+   - Refine layout with Flexbox  
+   - Polish styling (spacing, font size, colors)
+
+**other section will be explaned once i move or completed that seciton**
+
+2. **Information Section**  
+3. **Testimonial/Quote Section**  
+4. **Call-To-Action (CTA) Section**  
+5. **Footer**  
+
+---
+
 ## 📤 **To-Do**
-- [ ] Complete basic structure  
-- [ ] Add styling  
+- [x] Setup project repo and file structure  
+- [x] Add header and hero section HTML  
+- [ ] Style hero section  
+- [ ] Build info section  
+- [ ] Add testimonial quote  
+- [ ] Build footer  
+- [ ] Final polish  
 - [ ] Push to GitHub  
 - [ ] Share with the community!
-
 ---
 
 © The Odin Project 2021 | Made with ❤️ by Krisnaarji
