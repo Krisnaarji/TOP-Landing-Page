@@ -1,4 +1,4 @@
-#**Landing Page Project**  
+# **Landing Page Project**  
 ### _The Odin Project – Foundations Assignment_
 
 ---
@@ -27,16 +27,16 @@ The landing page features:
 
 ---
 
-## **Skills Demonstrated**
+## 🧠 **Skills Demonstrated**
 
-- ✅ Semantic HTML  
-- ✅ CSS styling and layout  
-- ✅ Flexbox for responsive structure  
-- ✅ Git version control (commit early, commit often!)
+- Semantic HTML  
+- CSS styling and layout  
+- Flexbox for responsive structure  
+- Git version control (commit early, commit often!)
 
 ---
 
-## **Assignment Guidelines**
+## 📌 **Assignment Guidelines**
 
 > **Tip**: Work one section at a time.  
 > 1. Structure HTML first  
@@ -53,4 +53,4 @@ The landing page features:
 
 ---
 
-© The Odin Project 2021 | Made with ❤️ by [Krisnaarji]
+© The Odin Project 2021 | Made with ❤️ by Krisnaarji
