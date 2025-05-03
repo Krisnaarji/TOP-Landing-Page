@@ -62,9 +62,35 @@ I’m following a **section-by-section** development style — from the **top** 
 **Other sections will be explained once I move or complete that section**
 
 2. **Information Section**  
+
+## 🧱 **How I'm Building This Project**
+
+I’m following a **section-by-section** development style — from the **top** (header/hero) to the **bottom** (footer), and I aim to complete each section before moving on to the next.
+
+### Section Workflow:
+
+1. **Top Section (Hero area)**  
+   - Build HTML structure first (logo, navigation, heading, subtext, image, CTA button)  
+   - Add basic CSS styling  
+   - Refine layout with Flexbox  
+   - Polish styling (spacing, font size, colors)  
+   - **→ Made the image responsive using `@media`** 👇 _(see details below)_
+
+**Other sections will be explained once I move or complete that section**
+
+2. ~~**Information Section**~~ → **About Section**  
+   - basicly it means the same but made it to **"About" section** to match the header navlink
+   - This section includes a **background image**, section heading, subtext, and **three value cards**:
+     - *Individual & Team*  
+     - *Tradition & Innovation*  
+     - *Passion & Achievement*  
+   - I found this approach more engaging and expressive for the project’s theme  
+   - Built and styled using Flexbox, with new image assets added to `/images`  
+
 3. **Testimonial/Quote Section**  
 4. **Call-To-Action (CTA) Section**  
-5. **Footer**  
+5. **Footer**
+ 
 
 ---
 
@@ -95,7 +121,7 @@ It wasn’t required, but I’m proud of solving it anyway.
 - [x] Add header and hero section HTML  
 - [x] Style hero section  
 - [x] Make image responsive with media queries  
-- [ ] Build info section  
+- [x] Build ~~**info section**~~ about section  
 - [ ] Add testimonial quote  
 - [ ] Build footer  
 - [ ] Final polish  
@@ -103,6 +129,17 @@ It wasn’t required, but I’m proud of solving it anyway.
 - [ ] Share with the community!
 
 ---
+
+## credit of all asset used in this project
+
+**the one and only**
+[Ferrari Official Website](https://www.ferrari.com/)
+
+**and the other asset**
+
+- [Ferrari 125 f1](https://id.pinterest.com/pin/18647785947355183/)   
+
+i will update later and credit all the asset
 
 ## 📸 Reference Design
 
