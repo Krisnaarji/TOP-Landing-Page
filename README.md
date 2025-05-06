@@ -3,13 +3,13 @@
 
 ---
 
-This is a simple **landing page** built as part of [The Odin Project](https://www.theodinproject.com/) **Foundations** curriculum.  
-The goal is to recreate a provided design layout using basic **HTML and CSS**, with freedom to customize:
+This is a completed **landing page** built as part of [The Odin Project](https://www.theodinproject.com/) **Foundations** curriculum.  
+The goal was to recreate a provided design layout using basic **HTML and CSS**, with freedom to customize:
 
- - Fonts  
- - Images  
- - Text content  
- - Color schemes  
+- Fonts  
+- Images  
+- Text content  
+- Color schemes  
 
 > _"Style it your way!"_
 
@@ -20,9 +20,9 @@ The goal is to recreate a provided design layout using basic **HTML and CSS**, w
 The landing page features:
 
 - **Hero section** with a bold headline, subtext, image, and a CTA button  
-- **Information section** with icons or images and descriptive text  
+- **About section** with icons/images and descriptive value cards  
 - **Driver quote section** with a testimonial-style layout  
-- **Final call-to-action**  
+- **Final call-to-action (CTA)** section  
 - **Footer**
 
 ---
@@ -42,89 +42,88 @@ The landing page features:
 > **Tip**: Work one section at a time.  
 > 1. Structure HTML first  
 > 2. Style with CSS (single stylesheet is enough)  
-> 3. Be creative – just credit any copyrighted material you use
+> 3. Be creative – just credit any copyrighted material
 
 ---
 
-## 🧱 **How I'm Building This Project**
+## 🧱 **How I Built This Project**
 
-I’m following a **section-by-section** development style — from the **top** (header/hero) to the **bottom** (footer), and I aim to complete each section before moving on to the next.
+I followed a **section-by-section** workflow — building each section from top to bottom and fully completing the styling before moving on.
 
 ### Section Workflow:
 
 1. **Top Section (Hero area)**  
-   - Build HTML structure first (logo, navigation, heading, subtext, image, CTA button)  
-   - Add basic CSS styling  
-   - Refine layout with Flexbox  
-   - Polish styling (spacing, font size, colors)  
-   - **→ Made the image responsive using `@media`** 👇 _(see details below)_
+   - Built HTML structure (logo, nav, heading, subtext, image, CTA button)  
+   - Styled using Flexbox  
+   - Made image responsive with `@media` queries  
+   - Adjusted spacing, fonts, and layout  
 
-2. ~~**Information Section**~~ → **About Section**  
-   - basicly it means the same but made it to **"About" section** to match the header navlink  
-   - This section includes a **background image**, section heading, subtext, and **three value cards**:
-     - *Individual & Team*  
-     - *Tradition & Innovation*  
-     - *Passion & Achievement*  
-   - Built and styled using Flexbox, with new image assets added to `/images`
+2. **About Section** (formerly "Info Section")  
+   - Renamed for consistency with nav link  
+   - Includes a background image, heading, subtext, and three value cards  
+   - Styled and positioned using Flexbox  
+   - Added assets to `/images`
 
 3. **Driver Quote Section (Testimonial)**  
-   - Labeled as "Driver" in the navigation bar  
-   - Features a quote from Lewis Hamilton on joining Ferrari  
-   - Image and quote styled side-by-side using Flexbox  
-   - Carefully adjusted padding and margins for clean layout  
-   - Added supporting image assets to the `/images` directory
+   - Nav-labeled as "Driver"  
+   - Contains Lewis Hamilton quote and image  
+   - Flexbox used for horizontal layout  
+   - Polished padding and alignment for clarity  
 
-4. **Call-To-Action (CTA) Section**  
-5. **Footer**
+4. **CTA Section**  
+   - Titled “Join the Legacy of Champions”  
+   - Centered headline, subtext, and button with Flexbox  
+   - Gradient background and responsive layout  
+
+5. **Footer**  
+   - Simple layout with left-right text alignment using Flexbox  
+   - Clean and responsive design
 
 ---
 
 ## 🤔 **What I Struggled With (and Fixed!)**
 
-### The Problem: Hero Image Wouldn’t Shrink
+### Hero Image Responsiveness
 
-Even though the project is meant for desktop view, it was really bothering me that the image in the hero section didn’t resize when I shrank the browser window. It was overflowing and felt broken.
+The hero image originally overflowed on smaller screens. Though not required, I fixed it for better UX.
 
-### The Fix: Media Queries
+**Fix:**  
+- Set `width: 100%` and `max-width: 700px`  
+- Used `@media (max-width: 768px)` to:  
+  - Change layout to column  
+  - Center-align elements  
+  - Reset margins for better balance
 
-I found [this helpful Stack Overflow answer](https://stackoverflow.com/questions/66684482/using-media-for-entire-css) that explained how to use `@media` queries in regular CSS (not just Sass).  
-With that, I:
-
-- Set `width: 100%` and `max-width: 700px` for the image  
-- Added a `@media (max-width: 768px)` query to:
-  - Switch layout direction to column  
-  - Center-align text and image  
-  - Remove negative margins so the image centers properly
-
-Now the image scales naturally while still looking great on desktop.  
-It wasn’t required, but I’m proud of solving it anyway.
+Now the hero section scales naturally and maintains structure across screen sizes.
 
 ---
 
 ## 📤 **To-Do**
+
 - [x] Setup project repo and file structure  
 - [x] Add header and hero section HTML  
 - [x] Style hero section  
 - [x] Make image responsive with media queries  
-- [x] Build ~~**info section**~~ about section  
+- [x] Build about section  
 - [x] Add testimonial quote (Driver section)  
-- [ ] Build footer  
+- [x] Style CTA section  
+- [x] Add footer  
 - [ ] Final polish  
-- [ ] Push to GitHub  
-- [ ] Share with the community!
+- [x] Push to GitHub  
+- [x] Share with the community!
 
 ---
 
-## 🎨 Credits for Assets Used in This Project
+## 🎨 **Credits for Assets Used in This Project**
 
-I try to credit every asset I use. This section will be updated as I add more.
+I aim to credit all used materials properly. This list will be updated as needed.
 
 **Official sources:**
 - [Ferrari Official Website](https://www.ferrari.com/)
 
-**Image & content credits:**
+**Images & content:**
 - Lewis Hamilton Ferrari image: [Ferrari Store Replica Editorial](https://store.ferrari.com/en-ae/editorial-replica-scuderia-ferrari)  
-- Charles Leclerc Monza 2024 selfie: Found via [F1 on X (Twitter)](https://x.com/F1/status/1830260240056717534) — originally shared by Leclerc on Instagram Story  
+- Charles Leclerc Monza 2024 selfie: Found via [F1 on X (Twitter)](https://x.com/F1/status/1830260240056717534) — originally from Leclerc’s Instagram Story  
 
 **Fonts used:**
 - Ferro Rosso font: [Download on dafont.style](https://dafont.style/download/ferro-rosso-font.html)  
@@ -134,13 +133,11 @@ I try to credit every asset I use. This section will be updated as I add more.
 **Other image references:**
 - [Ferrari 125 F1 on Pinterest](https://id.pinterest.com/pin/18647785947355183/)
 
-→ *More credits will be added as needed.*
-
 ---
 
-## 📸 Reference Design
+## 📸 **Reference Design**
 
-This is the landing page reference image provided by The Odin Project:
+This was the original reference from The Odin Project:
 
 ![Landing Page Preview](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png)
 
