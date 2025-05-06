@@ -102,7 +102,7 @@ header {
 }
 
 .hero-text p {
-    font-size: 20px;
+    font-size: 30px;
     padding: 14px 0px 0px 0px;
     font-family: 'Oswald', sans-serif;
 }
@@ -284,6 +284,66 @@ header {
     transform: scaleX(-1);
 }
 
+
+/* CTA SECTION */
+
+#CTA {
+    display: flex;
+    align-self: center;
+    padding: 100px;
+}
+
+.CTA-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    align-items: center;
+    background: radial-gradient(circle,rgba(255, 0, 0, 1) 4%, rgba(204, 0, 0, 1) 24%, rgba(173, 0, 0, 1) 43%, rgba(125, 0, 0, 1) 73%);
+    gap: 50px;
+    padding: 100px;
+    margin: 50px
+}
+
+.CTA-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.CTA-text p , h3{
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.CTA-text p {
+    font-size: 25px;
+
+}
+
+.CTA-text h2 {
+    font-size: 35px;
+
+
+}
+
+.CTA-button button {
+    width: 170px;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 30px;
+    border-radius:10px ;
+    background-color: transparent;
+    color: #ffffff;
+    border-color: white;
+}
+
+.CTA-button button:hover {
+
+    box-shadow: 7px 13px 29px 0px rgba(60,0,0,0.77);
+
+}
+
 footer {
     background-color: black;
 }
@@ -293,5 +353,6 @@ footer {
     align-items: center;
     justify-content: space-between;
     gap: 10px;
-    padding: 50px;
+    padding: 30px;
+    
 }
